@@ -67,3 +67,29 @@ The bidder registration service is dependent on the CosmosDB in order to functio
 **Client Timeouts**
 
 The recommended timeout for the Bidder Registration endpoints is 2 seconds.
+
+##For Test locally 
+
+Install cosmos-db emulator from here https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21
+
+then create database and put bidder-registration in Database id textbox
+
+Then create new container and put bidderdata in Containerid and partitionKey in partitionKey.
+
+now you can run api on your local iis and test complete flow.
+
+An sample json payload for test api can be seen below:
+```json
+{
+    "MarketplaceCode": 201,
+    "AuctionId": 123,
+    "AuctionHouseId": 1001,
+    "customerId": "4",
+    "bidderId": "5",
+    "status": "Pending",
+    "bidderRef": "10C",
+    "cta": "The Coffe was hot"
+}
+```
+
+
