@@ -72,9 +72,9 @@ The recommended timeout for the Bidder Registration endpoints is 2 seconds.
 
 Install cosmos-db emulator from here https://docs.microsoft.com/en-us/azure/cosmos-db/local-emulator?tabs=ssl-netstd21
 
-then create database and put bidder-registration in Database id textbox
+then create database and put buyer-registration in Database id textbox
 
-Then create new container and put bidderdata in Containerid and partitionKey in partitionKey.
+Then create new container and put buyerdata in Containerid and partitionKey in partitionKey.
 
 now you can run api on your local iis and test complete flow.
 
