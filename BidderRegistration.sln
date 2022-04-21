@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{98C682FA-32B4-44FC-AC59-84E29B73C744}"
+	ProjectSection(SolutionItems) = preProject
+		ATGMedia.GAPShared.BidderRegistration.API.AdapterTests\ReadMe.txt = ATGMedia.GAPShared.BidderRegistration.API.AdapterTests\ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BidderRegistration.Infrastructure", "src\BidderRegistration.Services\BidderRegistration.Infrastructure.csproj", "{CFF84527-34E3-42CC-A81B-2FA8CDD6814B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BidderRegistration.Domain", "src\BidderRegistration.Domain\BidderRegistration.Domain.csproj", "{10E29D9A-745B-4102-B5B8-50612ECFC2C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BidderRegistration.Api", "src\BidderRegistration.Api\BidderRegistration.Api.csproj", "{09D7D5E0-1406-46EC-8F4F-277C39BE517A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BidderRegistration.API.AdapterTests", "tests\BidderRegistration.API.AdapterTests\BidderRegistration.API.AdapterTests.csproj", "{BAE7AAFD-5D00-4C96-B0BB-CD207D99AE1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BidderRegistration.Api.Specs", "tests\BidderRegistration.Api.Specs\BidderRegistration.Api.Specs.csproj", "{E6488113-24C6-4818-B5EF-C312F037308B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BidderRegistration.Api.UnitTests", "tests\BidderRegistration.Api.UnitTests\BidderRegistration.Api.UnitTests.csproj", "{D7522C40-8DED-457A-9166-0F3084C095E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF84527-34E3-42CC-A81B-2FA8CDD6814B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF84527-34E3-42CC-A81B-2FA8CDD6814B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF84527-34E3-42CC-A81B-2FA8CDD6814B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF84527-34E3-42CC-A81B-2FA8CDD6814B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E29D9A-745B-4102-B5B8-50612ECFC2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E29D9A-745B-4102-B5B8-50612ECFC2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E29D9A-745B-4102-B5B8-50612ECFC2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E29D9A-745B-4102-B5B8-50612ECFC2C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D7D5E0-1406-46EC-8F4F-277C39BE517A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D7D5E0-1406-46EC-8F4F-277C39BE517A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D7D5E0-1406-46EC-8F4F-277C39BE517A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D7D5E0-1406-46EC-8F4F-277C39BE517A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAE7AAFD-5D00-4C96-B0BB-CD207D99AE1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE7AAFD-5D00-4C96-B0BB-CD207D99AE1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE7AAFD-5D00-4C96-B0BB-CD207D99AE1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE7AAFD-5D00-4C96-B0BB-CD207D99AE1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6488113-24C6-4818-B5EF-C312F037308B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6488113-24C6-4818-B5EF-C312F037308B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6488113-24C6-4818-B5EF-C312F037308B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6488113-24C6-4818-B5EF-C312F037308B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7522C40-8DED-457A-9166-0F3084C095E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7522C40-8DED-457A-9166-0F3084C095E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7522C40-8DED-457A-9166-0F3084C095E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7522C40-8DED-457A-9166-0F3084C095E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BAE7AAFD-5D00-4C96-B0BB-CD207D99AE1B} = {98C682FA-32B4-44FC-AC59-84E29B73C744}
+		{E6488113-24C6-4818-B5EF-C312F037308B} = {98C682FA-32B4-44FC-AC59-84E29B73C744}
+		{D7522C40-8DED-457A-9166-0F3084C095E1} = {98C682FA-32B4-44FC-AC59-84E29B73C744}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F35F4DDF-974E-44B2-86C4-C3432A072595}
+	EndGlobalSection
+EndGlobal
