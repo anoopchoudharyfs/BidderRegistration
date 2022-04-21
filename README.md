@@ -35,21 +35,21 @@ bidderRequest.AuctionId-bidderRequest.CustomerId-bidderRequest.MarketplaceCode.
 An example document from the container can be seen below:
 ```json
 {
-    "id": "1-a_customer_123-201",
-    "partitionKey": "a_customer_123-201",
+    "id": "123-4-201",
+    "partitionKey": "4-201",
     "marketplaceCode": 201,
-    "globalAuctionId": 1,
+    "auctionId": 123,
     "auctionHouseId": 1001,
-    "customerId": "a_customer_123",
-    "bidderId": "a-bidder-123",
-    "paddleNumber": "10C",
-    "status": 3,
-    "cta": "The beach was crowded with snow leopards.\\nThere was no ice cream in the freezer, nor did they have money to go to the store.\\nGreen should have smelled more tranquil, but somehow it just tasted rotten.",
-    "_rid": "fQ5+ANYr1b4BAAAAAAAAAA==",
-    "_self": "dbs/fQ5+AA==/colls/fQ5+ANYr1b4=/docs/fQ5+ANYr1b4BAAAAAAAAAA==/",
-    "_etag": "\"88007074-0000-0100-0000-6238acf30000\"",
+    "customerId": "4",
+    "bidderId": "5",
+    "bidderRef": "10C",
+    "status": "Pending",
+    "cta": "The Coffe was hot",
+    "_rid": "VLE9AIJtmQYCAAAAAAAAAA==",
+    "_self": "dbs/VLE9AA==/colls/VLE9AIJtmQY=/docs/VLE9AIJtmQYCAAAAAAAAAA==/",
+    "_etag": "\"00000000-0000-0000-554c-2b6ffc0901d8\"",
     "_attachments": "attachments/",
-    "_ts": 1647881459
+    "_ts": 1650523864
 }
 ```
 **Restoring Data**
