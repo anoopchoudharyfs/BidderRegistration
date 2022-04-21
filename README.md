@@ -6,7 +6,7 @@ Bidder registrations job is to provide an API which enables the user to update a
 
 The MVP provides one endpoint, allowing you to update a bidders status on an auction which will be stored in a CosmosDB collection.
 
-![Artifacts](./docs/BidderRegWidgetAct.PNG)
+![Artifacts](./docs/Layers.PNG)
 
 ##Developer Notes
 
